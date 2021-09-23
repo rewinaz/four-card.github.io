@@ -1,0 +1,106 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+.description {
+    text-align: center;
+    width: 35%;
+    margin: 1em auto;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto 4em auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    float: right;
+}
+
+.column {
+    width: 32%;
+}
+
+.double {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card {
+
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 2em;
+    padding: 2em 3em 1.5em 2em;
+    box-shadow: -1px 4px 23px -1px rgba(138,135,138,0.53);
+    
+}
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team {
+    border-top: 5px solid hsl(0, 12%, 42%);
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+#top-page {
+    margin-top: 2.25em;
+}
+
+@media (max-width: 675px) {
+    .description {
+        width: 80%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 80%;
+    }
+}
+
+/**** TYPOGRAPHY  *****/
+h2,
+h3 {
+    color: hsl(234, 12%, 34%);
+}
+
+p {
+    color: hsl(229, 6%, 66%);
+}
+
+h2 {
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.bold {
+    font-weight: 600;
+    margin-top: 0;
+}
