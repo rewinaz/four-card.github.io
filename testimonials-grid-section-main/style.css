@@ -28,7 +28,7 @@ body {
     justify-content: space-between;
 }
 
-#double-column {
+.double-column {
     display: flex;
     justify-content: space-between;
     height: 47.5%;
@@ -101,7 +101,7 @@ body {
         flex-direction: column;
     }
 
-    #double-column {
+    .double-column {
         flex-direction: column;
     }
 
@@ -126,7 +126,7 @@ body {
         border: 1px solid red;
     }
 
-    #double-column {
+    .double-column {
         width: 100%;
     }
 
