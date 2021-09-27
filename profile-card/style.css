@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.whole-container {
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    background-image: url('images/bg-pattern-top.svg'),
+                        url('images/bg-pattern-bottom.svg');
+    background-position: bottom 47vh right 47vw, top 50vh left 50vw;
+    background-repeat: no-repeat;
+}
+
+.card-container {
+    max-width: 350px;
+    width: 90%;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background-image img {
+    border-radius: 15px 15px 0 0;
+    max-width: 100%;
+}
+
+.image-container {
+    position: relative;
+    background-color: white;
+    margin-top: -3em;
+    margin-bottom: 0;
+    border-radius: 50%;
+}
+
+.image-container img {
+    border-radius: 50%;
+    margin: .25em;
+}
+
+/**** profile ******/
+
+.info-container {
+    display: flex;
+}
+
+.nation {
+    margin: 0;
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+.profile-info {
+    margin-right: 1em;
+}
+
+/****footer *****/
+
+.stuff-container {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    border-top: 1px solid #707070;
+}
+
+.card-stuff {
+    padding: .25em 2em;
+}
+
+
+/***** Typography ******/
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 0;
+    font-size: 1.3rem;
+}
+
+h4 {
+    text-align: center;
+    margin-top: .25rem;
+    font-size: .75rem;
+}
+
+.subtitle,
+.small-text {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
