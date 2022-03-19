@@ -18,7 +18,7 @@ const generateAdvice = async () => {
   renderAdvice(result.slip);
 };
 
-fetchAdvice(); // initial advice
+generateAdvice(); // initial advice
 button.addEventListener("click", function (e) {
   generateAdvice();
 });
