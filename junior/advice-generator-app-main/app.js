@@ -10,7 +10,7 @@ const fetchAdvice = async function () {
 
 const renderAdvice = (result) => {
   let { id, advice } = result;
-  adviceId.textContent = `${id}`;
+  adviceId.textContent = `ADVICE #${id}`;
   adviceText.textContent = `${advice}`;
 };
 const generateAdvice = async () => {
